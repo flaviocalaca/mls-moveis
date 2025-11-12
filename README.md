@@ -1,16 +1,30 @@
-# React + Vite
+# CineVerse (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o repositório do projeto CineVerse, uma aplicação web para descoberta de filmes e séries.
 
-Currently, two official plugins are available:
+## Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+CineVerse é uma interface web interativa para entusiastas de cinema. Permite a navegação entre filmes e séries, exibindo conteúdo em destaque, listas dinâmicas e páginas de detalhes com sinopse, elenco e trailers. A interface, construída com React e Styled Components, oferece uma experiência de usuário fluida e moderna.
 
-## React Compiler
+## Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*   **Frontend:** React, `styled-components`, `react-router-dom`
+*   **Build Tool:** Vite
+*   **API:** The Movie Database (TMDB)
+*   **Deployment:** (Você pode adicionar onde fez o deploy, ex: Vercel, Netlify)
 
-## Expanding the ESLint configuration
+## Como Executar o Projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1.  Clone o repositório:
+    ```bash
+    git clone https://github.com/SEU_USUARIO/mls-moveis.git
+    ```
+2.  Instale as dependências:
+    ```bash
+    yarn install
+    ```
+3.  Execute o servidor de desenvolvimento:
+    ```bash
+    yarn dev
+    ```
+4.  Abra [http://localhost:5173](http://localhost:5173) (ou a porta indicada no terminal) no seu navegador.
