@@ -619,4 +619,4 @@ span {
   body {
     background: #000000;
   }
-`;ah(document.getElementById("root")).render(P.jsxs(k.StrictMode,{children:[P.jsxs(cy,{children:["future=",{v7_relativeSplatPath:!0,v7_startTransition:!0},">",P.jsx(EE,{})]}),P.jsx(TE,{})]}));
+`;ah(document.getElementById("root")).render(P.jsxs(k.StrictMode,{children:[P.jsx(cy,{children:P.jsx(EE,{})}),P.jsx(TE,{})]}));
