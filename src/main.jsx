@@ -6,12 +6,7 @@ import GlobalStyle from "./styles/globalStyles.js";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <HashRouter
-      future={{
-        v7_relativeSplatPath: true,
-        v7_startTransition: true,
-      }}
-      >
+    <HashRouter>
       <Router />
     </HashRouter>
     <GlobalStyle />
